@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "inventory-management-d8c7d": {
+      "hosting": {
+        "code-gradients": [
+          "inventory-management-d8c7d"
+        ]
+      }
+    }
+  }
+}
