@@ -6,10 +6,20 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { CoursesPageComponent } from './pages/courses-page/courses-page.component';
+import { LearningPageComponent } from './pages/learnings-page/learning-page.component';
+import { TemplatesPageComponent } from './pages/templates-page/templates-page.component';
+import { AboutPageComponent } from './pages/about-page/about-page.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CoursesPageComponent,
+    LearningPageComponent,
+    TemplatesPageComponent,
+    AboutPageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

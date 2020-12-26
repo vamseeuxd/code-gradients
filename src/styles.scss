@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+  overflow: hidden;
+}
+
+.button-mode {
+  cursor: pointer;
+}
+
+*:focus {
+  outline: none;
+}
